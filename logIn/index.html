@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="lib/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Log in</title>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-top">
+				<a class="header-top__logo" href="../index.html"></a>
+				<nav class="header-top__nav">
+					<ul class="header-top__items">
+						<li class="header-top__item"><a class="header-top__link" href="#">Use Cases</a></li>
+						<li class="header-top__item"><a class="header-top__link" href="../aboutUs/index.html">About</a></li>
+						<li class="header-top__item"><a class="header-top__link" href="../pricing/index.html">Pricing</a></li>
+						<li class="header-top__item"><a class="header-top__link" href="../blog/index.html">Blog</a></li>
+					</ul>
+				</nav>
+				<form  class="header-top__form" action="" method="post">
+					<a class="header-top__form-link" href="../logIn/index.html">Login</a>
+					<a class="header-top__form-link" href="../signUp/index.html">Sign Up</a>
+				</form>
+			</div>
+			<main class="main">
+				<div class="main-top">
+					<div class="main-title">Log in</div>
+					<div class="main-text">Login into existing account.</div>
+				</div>
+				<form action="" method="post" onsubmit="return checkForm(this)" class="main-form" id="add-form">
+					<div class="main-form__block">
+						<div class="main-form__col">
+							<input class="main-form__input user-name-js" type="user_name" placeholder="Username">
+							<div class="main-form__img img-user"></div>
+						</div>
+						<div class="main-form__col">
+							<input class="main-form__input password-js" type="password" placeholder="Password">
+							<div class="main-form__img img-eye"></div>
+						</div>
+					</div>
+					<button class="main-form__btn" type="submit">Log In</button>
+				</form>
+				<div class="main-block">
+					<div class="main-block__title">Or</div>
+					<div class="main-block__text">Log in with...</div>
+				</div>
+				<div class="main-footer">
+					<div class="main-footer__social">
+						<ul class="main-footer__items">
+							<li class="main-footer__item">
+								<a class="main-footer__link link-fb" target="_blank" href="https://ru-ru.facebook.com/">Sign up with Facebook</a>
+							</li>
+							<li class="main-footer__item">
+								<a class="main-footer__link link-google" target="_blank"  href="https://goole.com">Sign up with Google</a>
+							</li>
+							<li class="main-footer__item">
+								<a class="main-footer__link link-apple" target="_blank" href="https://apple.com">Sign up with Apple</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<p class="footer-text">Already have an account? Please Log in.</p>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/index.js"></script>
+</body>
+</html>
