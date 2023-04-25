@@ -637,7 +637,4 @@
         margin-right: 12px;
         display: inline-block;
     }
-    @media (max-width: 320.98px) {
-        .header-top__form-link {
-            color: red;
 }
