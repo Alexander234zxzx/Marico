@@ -461,7 +461,7 @@ body {
   padding: 18px 38px 16px 36px;
   background-color: inherit;
   border: 1px solid #707070;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #707070;
 }
 .main-content__block-left__link:last-child:hover {
@@ -484,13 +484,13 @@ body {
   position: relative;
   margin-left: auto;
 }
-.main-content__block-rigth__img-block {
+.main-content__block-right__img-block {
   background-image: url('../images/block-grey.svg');
   width: 309px;
   height: 276px;
   position: absolute;
   top: 459px;
-  left: 367px;
+  left: 260px;
   z-index: -1;
 }
 .main-step2 {
@@ -756,8 +756,3 @@ body {
   color: #3C82F4;
   transition: .3s ease;
 }
-
-
-/* .main-content2, .main-social__img {
-  display: none;
-} */
