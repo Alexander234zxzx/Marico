@@ -780,6 +780,9 @@
     }
 }
 @media (max-width: 320.98px) {
+    .main-content__tel-input {
+        width: 130px;
+    }
     .footer-info__link-footer {
         font-size: 12px;
     }
